@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB44A1281E43C0C500FE932A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A1271E43C0C500FE932A /* DetailViewController.swift */; };
+		BB7ED45F1E3BDDF500DE4FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7ED45E1E3BDDF500DE4FDD /* AppDelegate.swift */; };
+		BB7ED4611E3BDDF500DE4FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7ED4601E3BDDF500DE4FDD /* ViewController.swift */; };
+		BB7ED4641E3BDDF500DE4FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7ED4621E3BDDF500DE4FDD /* Main.storyboard */; };
+		BB7ED4671E3BDDF500DE4FDD /* Asado.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB7ED4651E3BDDF500DE4FDD /* Asado.xcdatamodeld */; };
+		BB7ED4691E3BDDF500DE4FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7ED4681E3BDDF500DE4FDD /* Assets.xcassets */; };
+		BB7ED46C1E3BDDF500DE4FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7ED46A1E3BDDF500DE4FDD /* LaunchScreen.storyboard */; };
+		BB7ED4771E3BDDF500DE4FDD /* AsadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7ED4761E3BDDF500DE4FDD /* AsadoTests.swift */; };
+		BB7ED4821E3BDDF500DE4FDD /* AsadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7ED4811E3BDDF500DE4FDD /* AsadoUITests.swift */; };
+		BB7ED4901E3BED1F00DE4FDD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7ED48F1E3BED1F00DE4FDD /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB7ED4731E3BDDF500DE4FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7ED4531E3BDDF500DE4FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7ED45A1E3BDDF500DE4FDD;
+			remoteInfo = Asado;
+		};
+		BB7ED47E1E3BDDF500DE4FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7ED4531E3BDDF500DE4FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7ED45A1E3BDDF500DE4FDD;
+			remoteInfo = Asado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB44A1271E43C0C500FE932A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BB7ED45B1E3BDDF500DE4FDD /* Asado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7ED45E1E3BDDF500DE4FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB7ED4601E3BDDF500DE4FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB7ED4631E3BDDF500DE4FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB7ED4661E3BDDF500DE4FDD /* Asado.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Asado.xcdatamodel; sourceTree = "<group>"; };
+		BB7ED4681E3BDDF500DE4FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7ED46B1E3BDDF500DE4FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB7ED46D1E3BDDF500DE4FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7ED4721E3BDDF500DE4FDD /* AsadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsadoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7ED4761E3BDDF500DE4FDD /* AsadoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsadoTests.swift; sourceTree = "<group>"; };
+		BB7ED4781E3BDDF500DE4FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7ED47D1E3BDDF500DE4FDD /* AsadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsadoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7ED4811E3BDDF500DE4FDD /* AsadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsadoUITests.swift; sourceTree = "<group>"; };
+		BB7ED4831E3BDDF500DE4FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7ED48F1E3BED1F00DE4FDD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7ED4581E3BDDF500DE4FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7ED46F1E3BDDF500DE4FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7ED47A1E3BDDF500DE4FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7ED4521E3BDDF500DE4FDD = {
+			isa = PBXGroup;
+			children = (
+				BB7ED45D1E3BDDF500DE4FDD /* Asado */,
+				BB7ED4751E3BDDF500DE4FDD /* AsadoTests */,
+				BB7ED4801E3BDDF500DE4FDD /* AsadoUITests */,
+				BB7ED45C1E3BDDF500DE4FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7ED45C1E3BDDF500DE4FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7ED45B1E3BDDF500DE4FDD /* Asado.app */,
+				BB7ED4721E3BDDF500DE4FDD /* AsadoTests.xctest */,
+				BB7ED47D1E3BDDF500DE4FDD /* AsadoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7ED45D1E3BDDF500DE4FDD /* Asado */ = {
+			isa = PBXGroup;
+			children = (
+				BB7ED45E1E3BDDF500DE4FDD /* AppDelegate.swift */,
+				BB7ED4601E3BDDF500DE4FDD /* ViewController.swift */,
+				BB44A1271E43C0C500FE932A /* DetailViewController.swift */,
+				BB7ED4621E3BDDF500DE4FDD /* Main.storyboard */,
+				BB7ED4681E3BDDF500DE4FDD /* Assets.xcassets */,
+				BB7ED48F1E3BED1F00DE4FDD /* Extensions.swift */,
+				BB7ED46A1E3BDDF500DE4FDD /* LaunchScreen.storyboard */,
+				BB7ED46D1E3BDDF500DE4FDD /* Info.plist */,
+				BB7ED4651E3BDDF500DE4FDD /* Asado.xcdatamodeld */,
+			);
+			path = Asado;
+			sourceTree = "<group>";
+		};
+		BB7ED4751E3BDDF500DE4FDD /* AsadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7ED4761E3BDDF500DE4FDD /* AsadoTests.swift */,
+				BB7ED4781E3BDDF500DE4FDD /* Info.plist */,
+			);
+			path = AsadoTests;
+			sourceTree = "<group>";
+		};
+		BB7ED4801E3BDDF500DE4FDD /* AsadoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7ED4811E3BDDF500DE4FDD /* AsadoUITests.swift */,
+				BB7ED4831E3BDDF500DE4FDD /* Info.plist */,
+			);
+			path = AsadoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7ED45A1E3BDDF500DE4FDD /* Asado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7ED4861E3BDDF500DE4FDD /* Build configuration list for PBXNativeTarget "Asado" */;
+			buildPhases = (
+				BB7ED4571E3BDDF500DE4FDD /* Sources */,
+				BB7ED4581E3BDDF500DE4FDD /* Frameworks */,
+				BB7ED4591E3BDDF500DE4FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asado;
+			productName = Asado;
+			productReference = BB7ED45B1E3BDDF500DE4FDD /* Asado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB7ED4711E3BDDF500DE4FDD /* AsadoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7ED4891E3BDDF500DE4FDD /* Build configuration list for PBXNativeTarget "AsadoTests" */;
+			buildPhases = (
+				BB7ED46E1E3BDDF500DE4FDD /* Sources */,
+				BB7ED46F1E3BDDF500DE4FDD /* Frameworks */,
+				BB7ED4701E3BDDF500DE4FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7ED4741E3BDDF500DE4FDD /* PBXTargetDependency */,
+			);
+			name = AsadoTests;
+			productName = AsadoTests;
+			productReference = BB7ED4721E3BDDF500DE4FDD /* AsadoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB7ED47C1E3BDDF500DE4FDD /* AsadoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7ED48C1E3BDDF500DE4FDD /* Build configuration list for PBXNativeTarget "AsadoUITests" */;
+			buildPhases = (
+				BB7ED4791E3BDDF500DE4FDD /* Sources */,
+				BB7ED47A1E3BDDF500DE4FDD /* Frameworks */,
+				BB7ED47B1E3BDDF500DE4FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7ED47F1E3BDDF500DE4FDD /* PBXTargetDependency */,
+			);
+			name = AsadoUITests;
+			productName = AsadoUITests;
+			productReference = BB7ED47D1E3BDDF500DE4FDD /* AsadoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7ED4531E3BDDF500DE4FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Enrique Torrendell";
+				TargetAttributes = {
+					BB7ED45A1E3BDDF500DE4FDD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SZW3Z4QTH;
+						ProvisioningStyle = Automatic;
+					};
+					BB7ED4711E3BDDF500DE4FDD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SZW3Z4QTH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB7ED45A1E3BDDF500DE4FDD;
+					};
+					BB7ED47C1E3BDDF500DE4FDD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SZW3Z4QTH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB7ED45A1E3BDDF500DE4FDD;
+					};
+				};
+			};
+			buildConfigurationList = BB7ED4561E3BDDF500DE4FDD /* Build configuration list for PBXProject "Asado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7ED4521E3BDDF500DE4FDD;
+			productRefGroup = BB7ED45C1E3BDDF500DE4FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7ED45A1E3BDDF500DE4FDD /* Asado */,
+				BB7ED4711E3BDDF500DE4FDD /* AsadoTests */,
+				BB7ED47C1E3BDDF500DE4FDD /* AsadoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7ED4591E3BDDF500DE4FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7ED46C1E3BDDF500DE4FDD /* LaunchScreen.storyboard in Resources */,
+				BB7ED4691E3BDDF500DE4FDD /* Assets.xcassets in Resources */,
+				BB7ED4641E3BDDF500DE4FDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7ED4701E3BDDF500DE4FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7ED47B1E3BDDF500DE4FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7ED4571E3BDDF500DE4FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7ED4611E3BDDF500DE4FDD /* ViewController.swift in Sources */,
+				BB7ED45F1E3BDDF500DE4FDD /* AppDelegate.swift in Sources */,
+				BB44A1281E43C0C500FE932A /* DetailViewController.swift in Sources */,
+				BB7ED4671E3BDDF500DE4FDD /* Asado.xcdatamodeld in Sources */,
+				BB7ED4901E3BED1F00DE4FDD /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7ED46E1E3BDDF500DE4FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7ED4771E3BDDF500DE4FDD /* AsadoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7ED4791E3BDDF500DE4FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7ED4821E3BDDF500DE4FDD /* AsadoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7ED4741E3BDDF500DE4FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7ED45A1E3BDDF500DE4FDD /* Asado */;
+			targetProxy = BB7ED4731E3BDDF500DE4FDD /* PBXContainerItemProxy */;
+		};
+		BB7ED47F1E3BDDF500DE4FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7ED45A1E3BDDF500DE4FDD /* Asado */;
+			targetProxy = BB7ED47E1E3BDDF500DE4FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB7ED4621E3BDDF500DE4FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7ED4631E3BDDF500DE4FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7ED46A1E3BDDF500DE4FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7ED46B1E3BDDF500DE4FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7ED4841E3BDDF500DE4FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB7ED4851E3BDDF500DE4FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7ED4871E3BDDF500DE4FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = Asado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tor.Asado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BB7ED4881E3BDDF500DE4FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = Asado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tor.Asado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BB7ED48A1E3BDDF500DE4FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = AsadoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tor.AsadoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asado.app/Asado";
+			};
+			name = Debug;
+		};
+		BB7ED48B1E3BDDF500DE4FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = AsadoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tor.AsadoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asado.app/Asado";
+			};
+			name = Release;
+		};
+		BB7ED48D1E3BDDF500DE4FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = AsadoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tor.AsadoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Asado;
+			};
+			name = Debug;
+		};
+		BB7ED48E1E3BDDF500DE4FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = AsadoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tor.AsadoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Asado;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7ED4561E3BDDF500DE4FDD /* Build configuration list for PBXProject "Asado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7ED4841E3BDDF500DE4FDD /* Debug */,
+				BB7ED4851E3BDDF500DE4FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7ED4861E3BDDF500DE4FDD /* Build configuration list for PBXNativeTarget "Asado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7ED4871E3BDDF500DE4FDD /* Debug */,
+				BB7ED4881E3BDDF500DE4FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7ED4891E3BDDF500DE4FDD /* Build configuration list for PBXNativeTarget "AsadoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7ED48A1E3BDDF500DE4FDD /* Debug */,
+				BB7ED48B1E3BDDF500DE4FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7ED48C1E3BDDF500DE4FDD /* Build configuration list for PBXNativeTarget "AsadoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7ED48D1E3BDDF500DE4FDD /* Debug */,
+				BB7ED48E1E3BDDF500DE4FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB7ED4651E3BDDF500DE4FDD /* Asado.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB7ED4661E3BDDF500DE4FDD /* Asado.xcdatamodel */,
+			);
+			currentVersion = BB7ED4661E3BDDF500DE4FDD /* Asado.xcdatamodel */;
+			path = Asado.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB7ED4531E3BDDF500DE4FDD /* Project object */;
+}
